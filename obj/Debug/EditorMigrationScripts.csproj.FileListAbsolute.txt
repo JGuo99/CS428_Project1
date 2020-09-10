@@ -1,0 +1,2 @@
+a:\Academic\Year 4 Undergrad\Fall2020\CS 428\Homework\Project 1\Project 1\obj\Debug\EditorMigrationScripts.csprojAssemblyReference.cache
+a:\Academic\Year 4 Undergrad\Fall2020\CS 428\Homework\Project 1\Project 1\obj\Debug\EditorMigrationScripts.csproj.CoreCompileInputs.cache

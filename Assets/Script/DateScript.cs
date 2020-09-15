@@ -10,7 +10,7 @@ public class DateScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("UpdateDate", 0f, 60f);  //Update Time every 10sec
+        InvokeRepeating("UpdateDate", 0f, 30f);  //Update Time every 30sec
     }
 
     // Update is called once per frame

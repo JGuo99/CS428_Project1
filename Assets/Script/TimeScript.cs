@@ -11,7 +11,7 @@ public class TimeScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("UpdateTime", 0f, 10f);  //Update Time every 10sec
+        InvokeRepeating("UpdateTime", 0f, 30f);  //Update Time every 30sec
     }
 
     // Update is called once per frame

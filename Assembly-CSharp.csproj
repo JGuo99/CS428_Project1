@@ -37,8 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\DateScript.cs" />
+     <Compile Include="Assets\Script\RunTimeScaling.cs" />
      <Compile Include="Assets\Script\TimeScript.cs" />
+     <Compile Include="Assets\Script\TrueNorth.cs" />
+     <Compile Include="Assets\Script\Weather.cs" />
+     <Compile Include="Assets\Script\WindDirec.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Model\Fissure\Glass.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -623,6 +628,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0308bf55-0137-7083-b68c-6550531c5f2c}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="EditorMigrationScripts.csproj">
       <Project>{41853ac2-99ff-051e-64f5-d08f8c3c81d1}</Project>
       <Name>EditorMigrationScripts</Name>

@@ -10,6 +10,7 @@ public class Weather : MonoBehaviour
     public GameObject tempTextObject;
     public GameObject windTextObject;
 
+    public static string weatherType;
 
     public static float humidData;
     public static float windDirectData;
@@ -59,6 +60,10 @@ public class Weather : MonoBehaviour
             windDirectData = System.Convert.ToSingle(windDirect);
 
             string windSpeed = N["wind"]["speed"].Value;
+            // Debug.Log("Wind Speed is ... " + windSpeed);
+
+            weatherType = N["weather"][0]["description"];
+            // Debug.Log("Weather is ... " + weatherType);
 
             tempTextObject.GetComponent<TextMeshPro>().text = temp + "F\n\n" + humid + "%";
             windTextObject.GetComponent<TextMeshPro>().text = windSpeed + "mph";

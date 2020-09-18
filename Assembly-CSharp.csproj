@@ -41,6 +41,7 @@
      <Compile Include="Assets\Script\TimeScript.cs" />
      <Compile Include="Assets\Script\TrueNorth.cs" />
      <Compile Include="Assets\Script\Weather.cs" />
+     <Compile Include="Assets\Script\WeatherType.cs" />
      <Compile Include="Assets\Script\WindDirec.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Model\Fissure\Glass.shader" />
